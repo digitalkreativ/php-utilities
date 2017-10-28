@@ -1,0 +1,22 @@
+{
+  "name": "digitalkreativ/php-utilities",
+  "description": "General PHP helper functions you can use in any PHP 5.6.4 or above project",
+  "type": "library",
+  "require": {
+    "php": ">=5.6.4",
+    "illuminate/support": "5.4.*",
+    "nesbot/carbon": "~1.20"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tom Sacré",
+      "email": "github@digitalkreativ.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Digitalkreativ\\Utilities\\": "src"
+    }
+  }
+}
